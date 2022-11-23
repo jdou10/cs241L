@@ -1,0 +1,38 @@
+/*Dou Jingru
+  cs241
+
+  This is mynewshapes.out program
+*/
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main(void)
+{
+
+	const int SHIFT = -9;
+    char a, b, d,e,f,g,h;
+    a=95+SHIFT;
+    b=42+SHIFT;
+    d=58+SHIFT;
+    e=43+SHIFT;
+    f=47+SHIFT;
+    g=92+SHIFT;
+    h=45+SHIFT;
+	printf("%c%c%c%c%c%c%c%c         %c%c%c%c               %c\n", a,a,a,a,a,a,a,a,b,b,b,b,e);
+	printf("%c           %c     %c%c%c%c  %c%c%c%c         %c %c\n",
+    d,d,b,b,b,b,b,b,b,b,f,g);
+	printf("%c           %c    %c%c%c%c    %c%c%c%c       %c   %c\n",
+    d,d,b,b,b,b,b,b,b,b,f,g);
+	printf("%c           %c   %c%c%c%c      %c%c%c%c     %c     %c\n",
+    d,d,b,b,b,b,b,b,b,b,f,g);
+	printf("%c           %c   %c%c%c%c      %c%c%c%c    %c       %c\n",
+    d,d,b,b,b,b,b,b,b,b,f,g);
+	printf("%c           %c    %c%c%c%c    %c%c%c%c    %c         %c\n",
+    d,d,b,b,b,b,b,b,b,b,f,g);
+	printf("%c           %c     %c%c%c%c  %c%c%c%c    %c           %c\n",
+    d,d,b,b,b,b,b,b,b,b,f,g);
+	printf("%c%c%c%c%c%cc%c          %c%c%c%c        %c%c%c%c%c%c%c%c%c\n",
+    a,a,a,a,a,a,a,a,b,b,b,b,a,a,a,a,a,a,a,a,a);
+	return 0;
+}

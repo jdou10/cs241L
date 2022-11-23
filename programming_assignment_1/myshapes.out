@@ -1,0 +1,20 @@
+/*Dou Jingru
+  cs241
+
+  This is myshapes.out program
+*/
+#include <stdio.h>
+
+int main(void)
+{
+	printf("Hello world\n");
+	printf("______________        ****             +\n");
+	printf(":            :     ****  ****         / \\\n");
+	printf(":            :    ****    ****       /   \\\n");
+	printf(":            :   ****      ****     /     \\\n");
+	printf(":            :   ****      ****    /       \\\n");
+	printf(":            :    ****    ****    /         \\\n");
+	printf(":            :     ****  ****    /           \\\n");
+	printf("--------------        ****      /_____________\\\n");
+	return 0;
+}
