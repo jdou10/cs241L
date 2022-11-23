@@ -1,0 +1,7 @@
+please refer to Dou_J_secret
+
+-------To be noticed-----------
+in this program, I used array, I don't remember which line, but the line is like "bytes[curr_pos] = currChar"
+In here, just simply change it to *(bytes + curr_pos) = currChar, can solve the problem using array
+By the way, it is the same thing becaues it doesn't matter if using array or not, teacher told us to use string literal, but string literal literally is a array
+Then I found out we were suppose to use something like strcat()................. hehe.....you never know
